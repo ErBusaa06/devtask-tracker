@@ -43,20 +43,17 @@ El objetivo principal es comprender el funcionamiento interno de una aplicación
 ## 📂 Estructura del proyecto
 
 devtask-tracker/
-│
-├─ backend/
-│  ├─ server.js                    # Servidor Express
-│  ├─ routes/tasks.js    # Rutas de la API REST
-│  ├─ models/Task.js     # Esquema Mongoose
-│  └─ .env               # Variables de entorno (MONGO_URI)
-│
-└─ frontend/
-├─ index.html                  # Interfaz principal
-├─ style.css                    # Estilos (dark mode)
-├─ main.js                        # Lógica frontend
-└─ favicon.png                # Icono de la aplicación
+- backend/
+  - server.js        → Servidor Express
+  - routes/tasks.js  → Rutas de la API REST
+  - models/Task.js   → Esquema Mongoose
+  - .env             → Variables de entorno (MONGO_URI)
+- frontend/
+  - index.html       → Interfaz principal
+  - style.css        → Estilos (dark mode)
+  - main.js          → Lógica frontend
+  - favicon.png      → Icono de la aplicación
 
-Código
 
 ---
 
