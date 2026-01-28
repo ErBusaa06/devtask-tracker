@@ -89,12 +89,29 @@ frontend/index.html
 ````
 O usar Go Live desde VS Code.
 
-✅ Cumplimiento de requisitos de la práctica
-Requisito	Estado	Detalles
-RA1 – Interfaz	✔️	SPA, Fetch API, DOM, diseño moderno
-RA2 – Servidor	✔️	API REST, JSON, códigos 200/201/500
-RA3 – Base de Datos	✔️	MongoDB Atlas, Mongoose, CRUD
-RA4 – Git	✔️	Proyecto organizado, README completo
+## ✅ Cumplimiento de requisitos de la práctica
+
+### **RA1 – Interfaz**
+- Interfaz dinámica tipo SPA  
+- Uso de Fetch API  
+- Manipulación del DOM sin frameworks  
+- Diseño moderno y responsivo  
+
+### **RA2 – Servidor**
+- API REST funcional  
+- Respuestas en formato JSON  
+- Manejo correcto de códigos de estado (200, 201, 500)  
+
+### **RA3 – Base de Datos**
+- Persistencia de datos en MongoDB Atlas  
+- Esquema definido con Mongoose  
+- Operaciones CRUD implementadas (Create, Read, Delete)  
+
+### **RA4 – Git**
+- Proyecto organizado en carpetas frontend y backend  
+- Uso adecuado de Git  
+- README completo y documentado  
+
 📝 Conclusión
 DevTask Tracker demuestra el dominio del flujo completo:
 Frontend → Backend → Base de Datos,
