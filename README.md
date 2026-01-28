@@ -46,7 +46,7 @@ API REST (GET, POST, DELETE)
 Base de datos
 MongoDB Atlas
 
-Mongoose (modelos y conexión)
+Mongoose
 
 📂 Estructura del proyecto
 Código
@@ -86,8 +86,6 @@ http://localhost:3000
 5. Abrir el frontend
 bash
 frontend/index.html
-O usar Go Live desde VS Code.
-
 ✅ Cumplimiento de requisitos de la práctica
 Requisito	Estado	Detalles
 RA1 – Interfaz	✔️	SPA, Fetch API, DOM, diseño moderno
