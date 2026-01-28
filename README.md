@@ -1,90 +1,90 @@
-# DevTask Tracker 📝  
-Aplicación **FullStack** para la gestión de tareas de desarrollo. Permite crear, visualizar y eliminar tareas técnicas mediante un frontend dinámico y un backend propio conectado a una base de datos en la nube.
+DevTask Tracker 📝
+Aplicación FullStack para la gestión de tareas de desarrollo. Permite crear, visualizar y eliminar tareas técnicas mediante un frontend dinámico y un backend propio conectado a una base de datos en la nube.
 
-El objetivo principal es comprender el funcionamiento interno de una aplicación web completa **sin frameworks**, utilizando únicamente estándares web nativos, Node.js y MongoDB.
+El objetivo principal es comprender el funcionamiento interno de una aplicación web completa sin frameworks, utilizando únicamente estándares web nativos, Node.js  y MongoDB.
 
----
+🚀 Funcionalidades
+Crear tareas con:
 
-## 🚀 Funcionalidades
+Título
 
-- Crear tareas con:
-  - Título  
-  - Descripción  
-  - Tecnología  
-  - Estado (Pendiente / Completada)
-- Visualizar todas las tareas almacenadas en **MongoDB Atlas**
-- Eliminar tareas mediante una **API REST**
-- Interfaz dinámica tipo **SPA** (sin recargar la página)
-- Diseño moderno en **dark mode**
-- Feedback visual en todas las acciones
+Descripción
 
----
+Tecnología
 
-## 🛠️ Tecnologías utilizadas
+Estado (Pendiente / Completada)
 
-### **Frontend**
-- HTML5 semántico  
-- CSS (Flexbox y Grid)  
-- JavaScript Vanilla  
-- Fetch API (async/await)  
-- Manipulación directa del DOM  
+Visualizar todas las tareas almacenadas en MongoDB Atlas
 
-### **Backend**
-- Node.js  
-- Express  
-- API REST (GET, POST, DELETE)  
+Eliminar tareas mediante una API REST
 
-### **Base de datos**
-- MongoDB Atlas  
-- Mongoose (modelos y conexión)
+Interfaz dinámica tipo SPA (sin recargar la página)
 
----
+Diseño moderno en dark mode
 
-## 📂 Estructura del proyecto
+Feedback visual en todas las acciones
 
+🛠️ Tecnologías utilizadas
+Frontend
+HTML5 semántico
+
+CSS (Flexbox y Grid)
+
+JavaScript Vanilla
+
+Fetch API (async/await)
+
+Manipulación directa del DOM
+
+Backend
+Node.js
+
+Express
+
+API REST (GET, POST, DELETE)
+
+Base de datos
+MongoDB Atlas
+
+Mongoose (modelos y conexión)
+
+📂 Estructura del proyecto
+Código
 devtask-tracker/
 │
 ├─ backend/
-│  ├─ server.js                    # Servidor Express
-│  ├─ routes/tasks.js    # Rutas de la API REST
-│  ├─ models/Task.js     # Esquema Mongoose
-│  └─ .env               # Variables de entorno (MONGO_URI)
+│  ├─ server.js
+│  ├─ routes/tasks.js
+│  ├─ models/Task.js
+│  └─ .env
 │
 └─ frontend/
-├─ index.html                  # Interfaz principal
-├─ style.css                    # Estilos (dark mode)
-├─ main.js                        # Lógica frontend
-└─ favicon.png                # Icono de la aplicación
-
-Código
-
----
-
-## ▶️ Cómo ejecutar el proyecto
-
-### **1. Clonar el repositorio**
-```bash
+   ├─ index.html
+   ├─ style.css
+   ├─ main.js
+   └─ favicon.png
+▶️ Cómo ejecutar el proyecto
+1. Clonar el repositorio
+bash
 git clone <URL_DEL_REPOSITORIO>
 cd devtask-tracker/backend
 2. Instalar dependencias
 bash
 npm install
 3. Configurar variables de entorno
-Crear un archivo .env dentro de la carpeta backend:
+Crear un archivo .env dentro de backend con:
 
-Código
+bash
 MONGO_URI=tu_cadena_de_conexion_mongodb_atlas
 4. Iniciar el servidor
 bash
 node server.js
 El backend se ejecutará en:
 
-Código
+bash
 http://localhost:3000
 5. Abrir el frontend
-Abrir manualmente:
-
-Código
+bash
 frontend/index.html
 O usar Go Live desde VS Code.
 
