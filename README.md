@@ -112,7 +112,11 @@ O usar Go Live desde VS Code.
 - Uso adecuado de Git  
 - README completo y documentado  
 
-📝 Conclusión
-DevTask Tracker demuestra el dominio del flujo completo:
-Frontend → Backend → Base de Datos,
-sentando una base sólida para desarrollar aplicaciones FullStack más complejas sin depender de frameworks externos.
+## 📝 Conclusión
+
+**DevTask Tracker** demuestra el dominio completo del flujo de desarrollo  
+**Frontend → Backend → Base de Datos**,  
+permitiendo comprender cómo se comunican todas las capas de una aplicación web sin depender de frameworks externos.
+
+Este proyecto sienta una base sólida para futuros desarrollos FullStack más complejos, aplicando buenas prácticas, arquitectura clara y un enfoque profesional en cada parte del proceso.
+
