@@ -2,13 +2,13 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-require('dotenv').config(); // carga las variables de entorno desde .env
+require('dotenv').config();
 
 const app = express();
 
 // Middlewares
 app.use(cors());
-app.use(express.json()); // para recibir JSON desde el frontend
+app.use(express.json());
 
 // Conexión a MongoDB
 mongoose.connect(process.env.MONGO_URI)
