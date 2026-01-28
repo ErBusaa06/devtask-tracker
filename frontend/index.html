@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevTask Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="DevTask Tracker Logo" class="logo">
+        <div class="header-text">
+            <h1>DevTask Tracker</h1>
+            <p>Gestiona tus tareas de desarrollo de forma clara y rápida</p>
+        </div>
+    </header>
+
+    <main>
+        <!-- Formulario para crear tareas -->
+        <section id="task-form">
+            <h2>Crear nueva tarea</h2>
+            <form id="form">
+                <input type="text" id="titulo" placeholder="Título de la tarea" required>
+                <input type="text" id="descripcion" placeholder="Descripción">
+                <select id="tecnologia" required>
+                    <option value="">Selecciona tecnología</option>
+                    <option value="JS">JavaScript</option>
+                    <option value="Java">Java</option>
+                    <option value="Python">Python</option>
+                </select>
+                <select id="estado" required>
+                    <option value="pending">Pendiente</option>
+                    <option value="done">Completada</option>
+                </select>
+                <button type="submit">Añadir tarea</button>
+            </form>
+        </section>
+
+        <!-- Lista de tareas -->
+        <section id="tasks-list">
+            <h2>Lista de tareas</h2>
+            <div class="tasks-header">
+                <span class="th nombre">Nombre</span>
+                <span class="th estado">Estado</span>
+                <span class="th opciones">Opciones</span>
+            </div>
+            <ul id="tasks"></ul>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
