@@ -69,8 +69,10 @@ cd devtask-tracker/backend
 npm install
 ````
 3. **Configurar variables de entorno. Crear un archivo .env dentro de la carpeta backend:**
-````
-MONGO_URI=tu_cadena_de_conexion_mongodb_atlas
+
+Copia `.env.example` a `.env` y completa tu URI de MongoDB:
+MONGO_URI=TU_URI_AQUI
+
 ````
 4. **Iniciar el servidor**
 ````
