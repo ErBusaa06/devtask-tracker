@@ -63,29 +63,32 @@ Código
 ## ▶️ Cómo ejecutar el proyecto
 
 ### **1. Clonar el repositorio**
-```bash
+````
 git clone <URL_DEL_REPOSITORIO>
 cd devtask-tracker/backend
+````
 2. Instalar dependencias
-bash
+````
 npm install
+````
 3. Configurar variables de entorno
 Crear un archivo .env dentro de la carpeta backend:
-
-Código
+````
 MONGO_URI=tu_cadena_de_conexion_mongodb_atlas
+````
 4. Iniciar el servidor
-bash
+````
 node server.js
+````
 El backend se ejecutará en:
-
-Código
+````
 http://localhost:3000
+````
 5. Abrir el frontend
 Abrir manualmente:
-
-Código
+````
 frontend/index.html
+````
 O usar Go Live desde VS Code.
 
 ✅ Cumplimiento de requisitos de la práctica
