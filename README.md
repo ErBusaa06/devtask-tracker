@@ -50,7 +50,7 @@ devtask-tracker/
   - .env             → Variables de entorno (MONGO_URI)
 - frontend/
   - index.html       → Interfaz principal
-  - style.css        → Estilos (dark mode)
+  - style.css        → Estilos
   - main.js          → Lógica frontend
   - favicon.png      → Icono de la aplicación
 
@@ -71,6 +71,7 @@ npm install
 3. **Configurar variables de entorno. Crear un archivo .env dentro de la carpeta backend:**
 
 Copia `.env.example` a `.env` y completa tu URI de MongoDB:
+````
 MONGO_URI=TU_URI_AQUI
 
 ````
