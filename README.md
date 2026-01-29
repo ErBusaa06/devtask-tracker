@@ -89,6 +89,7 @@ frontend/index.html
 ````
 O usar Go Live desde VS Code.
 ````
+````
 ## ✅ Cumplimiento de requisitos de la práctica
 
 Este proyecto cumple con los requisitos establecidos en la práctica, abarcando todas las áreas evaluables.
