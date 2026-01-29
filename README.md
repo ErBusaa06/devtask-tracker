@@ -87,35 +87,20 @@ http://localhost:3000
 frontend/index.html
 ````
 O usar Go Live desde VS Code.
+````
+✅ Cumplimiento de requisitos de la práctica
 
-## ✅ Cumplimiento de requisitos de la práctica
+Este proyecto cumple con los requisitos establecidos en la práctica, abarcando todas las áreas evaluables.
+En el apartado de interfaz, la aplicación funciona como una SPA sencilla, sin recargar la página, utilizando Fetch API para comunicarse con el backend y manipulando el DOM directamente con JavaScript Vanilla. El diseño es moderno, claro y responsivo, con un estilo dark mode que mejora la experiencia de usuario.
 
-### **RA1 – Interfaz**
-- Interfaz dinámica tipo SPA  
-- Uso de Fetch API  
-- Manipulación del DOM sin frameworks  
-- Diseño moderno y responsivo  
+En cuanto al servidor, se ha desarrollado una API REST propia con Node.js y Express, capaz de gestionar peticiones GET, POST y DELETE. La API responde correctamente en formato JSON y utiliza códigos de estado adecuados como 200, 201 y 500, garantizando una comunicación clara entre frontend y backend.
 
-### **RA2 – Servidor**
-- API REST funcional  
-- Respuestas en formato JSON  
-- Manejo correcto de códigos de estado (200, 201, 500)  
+Respecto a la base de datos, la aplicación se conecta a MongoDB Atlas mediante Mongoose, definiendo un esquema coherente para las tareas. Los datos persisten correctamente en la nube y se realizan operaciones CRUD sin errores, permitiendo crear, visualizar y eliminar tareas desde la interfaz web.
 
-### **RA3 – Base de Datos**
-- Persistencia de datos en MongoDB Atlas  
-- Esquema definido con Mongoose  
-- Operaciones CRUD implementadas (Create, Read, Delete)  
+Por último, el proyecto hace un uso correcto de Git y GitHub, manteniendo una estructura clara separada en frontend y backend, con un README completo y documentación suficiente para comprender, ejecutar y evaluar la aplicación.
 
-### **RA4 – Git**
-- Proyecto organizado en carpetas frontend y backend  
-- Uso adecuado de Git  
-- README completo y documentado  
+📝 Conclusión
 
-## 📝 Conclusión
+DevTask Tracker representa una aplicación FullStack completa desarrollada desde cero, cubriendo todo el flujo de trabajo desde la interfaz de usuario hasta la persistencia de datos en una base de datos en la nube.
 
-**DevTask Tracker** demuestra el dominio completo del flujo de desarrollo  
-**Frontend → Backend → Base de Datos**,  
-permitiendo comprender cómo se comunican todas las capas de una aplicación web sin depender de frameworks externos.
-
-Este proyecto sienta una base sólida para futuros desarrollos FullStack más complejos, aplicando buenas prácticas, arquitectura clara y un enfoque profesional en cada parte del proceso.
-
+El proyecto permite entender de forma práctica cómo se comunican el frontend, el backend y la base de datos sin depender de frameworks, utilizando únicamente tecnologías base del ecosistema web y Node.js. Además, se han aplicado buenas prácticas de desarrollo, seguridad y organización del código, sentando una base sólida para afrontar proyectos FullStack más complejos en el futuro.
