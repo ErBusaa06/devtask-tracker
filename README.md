@@ -54,7 +54,6 @@ devtask-tracker/
   - main.js          → Lógica frontend
   - favicon.png      → Icono de la aplicación
 
-
 ---
 
 ## ▶️ Cómo ejecutar el proyecto
@@ -88,8 +87,10 @@ http://localhost:3000
 frontend/index.html
 ````
 O usar Go Live desde VS Code.
-````
-````
+``
+
+---
+
 ## ✅ Cumplimiento de requisitos de la práctica
 
 Este proyecto cumple con los requisitos establecidos en la práctica, abarcando todas las áreas evaluables.
@@ -101,6 +102,8 @@ En cuanto al servidor, se ha desarrollado una API REST propia con Node.js y Expr
 Respecto a la base de datos, la aplicación se conecta a MongoDB Atlas mediante Mongoose, definiendo un esquema coherente para las tareas. Los datos persisten correctamente en la nube y se realizan operaciones CRUD sin errores, permitiendo crear, visualizar y eliminar tareas desde la interfaz web.
 
 Por último, el proyecto hace un uso correcto de Git y GitHub, manteniendo una estructura clara separada en frontend y backend, con un README completo y documentación suficiente para comprender, ejecutar y evaluar la aplicación.
+
+---
 
 ## 📝 Conclusión
 
