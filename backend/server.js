@@ -23,7 +23,7 @@ app.use('/api/tasks', taskRoutes);
 
 // Ruta de prueba
 app.get('/', (req, res) => {
-  res.send('Servidor DevTask Tracker funcionando ✅');
+  res.send('Servidor DevTask Tracker funcionando');
 });
 
 // Levantar servidor
