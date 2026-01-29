@@ -88,9 +88,10 @@ frontend/index.html
 ````
 O usar Go Live desde VS Code.
 ````
-✅ Cumplimiento de requisitos de la práctica
+## ✅ Cumplimiento de requisitos de la práctica
 
 Este proyecto cumple con los requisitos establecidos en la práctica, abarcando todas las áreas evaluables.
+
 En el apartado de interfaz, la aplicación funciona como una SPA sencilla, sin recargar la página, utilizando Fetch API para comunicarse con el backend y manipulando el DOM directamente con JavaScript Vanilla. El diseño es moderno, claro y responsivo, con un estilo dark mode que mejora la experiencia de usuario.
 
 En cuanto al servidor, se ha desarrollado una API REST propia con Node.js y Express, capaz de gestionar peticiones GET, POST y DELETE. La API responde correctamente en formato JSON y utiliza códigos de estado adecuados como 200, 201 y 500, garantizando una comunicación clara entre frontend y backend.
@@ -99,7 +100,7 @@ Respecto a la base de datos, la aplicación se conecta a MongoDB Atlas mediante 
 
 Por último, el proyecto hace un uso correcto de Git y GitHub, manteniendo una estructura clara separada en frontend y backend, con un README completo y documentación suficiente para comprender, ejecutar y evaluar la aplicación.
 
-📝 Conclusión
+## 📝 Conclusión
 
 DevTask Tracker representa una aplicación FullStack completa desarrollada desde cero, cubriendo todo el flujo de trabajo desde la interfaz de usuario hasta la persistencia de datos en una base de datos en la nube.
 
